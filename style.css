@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:wght@100;300;400;900&display=swap');
+
+body  {
+  background-color: rgb(220, 220, 220);
+  color: #517196;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+   width: 600px;
+   margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+    margin: 20px auto;
+  }
+}
+
+
+
+a:hover {
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Nerko One', cursive;
+}
+
+
+
+.card {
+  background: white;
+  text-align: center;
+  padding: 36px;
+  margin: 48px;
+}
+
+.img-round {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  object-fit: cover;
+  object-position: 100%, 100%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.button-blue {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #517296;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#intro {
+  padding-bottom: 24px
+}
+
+.list-inline {
+  list-inline: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px;
+  margin: 10px;
+  font-size: 48px;
+  letter-spacing: 0px;
+}
+
+i {
+  color: rgb(220, 220, 220);
+  background-color: white;
+}
+
+i:hover {
+  color: rgb(200, 200, 200);
+}
